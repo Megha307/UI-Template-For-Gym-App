@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjeevkumar.gymapp.weightlossacivity"
+    android:orientation="vertical"
+    android:background="@color/buttonclr">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="CATEGORIES"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" WHAT'S YOUR GOAL?"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:id="@+id/musclegain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/dumbell"
+                app:civ_border_color="#FF000000"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" MUSCLE GAIN "
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/fatloss"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/wlossimage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/healthy"
+
+                app:civ_border_color="#FF000000"/>
+
+
+            <Button
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" BE HEALITHER "
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <LinearLayout
+
+android:background="@color/backclr"
+            android:id="@+id/hlthy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/hhh"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/weight"
+                app:civ_border_color="#FF000000"/>
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" FAT LOSS "
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

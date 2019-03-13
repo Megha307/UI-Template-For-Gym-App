@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryone">#3F51B5</color>
+    <color name="colorPrimaryDarktwo">#303F9F</color>
+    <color name="colorAccentthree">#FF4081</color>
+    <color name="buttonclr">#fe104d</color>
+    <color name="yellow">#fff718</color>
+    <color name="backclr">#23283a</color>
+    <color name="colorPrimary">#23283a</color>
+    <color name="colorPrimaryDark">#23283a</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pink">#fe104d</color>
+
+
+</resources>
